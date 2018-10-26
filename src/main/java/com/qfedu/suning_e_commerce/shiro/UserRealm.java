@@ -25,7 +25,7 @@ public class UserRealm extends AuthorizingRealm {
         return null;
     }
 
-    //认证   登录校验
+    //认证   登录校验.......
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
         UsernamePasswordToken token=(UsernamePasswordToken)authenticationToken;
